@@ -1,65 +1,92 @@
+/* Existing styles stay same... */
 body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
 
-        /* Header */
-        .header {
-            background-color: #333;
-            color: #fff;
-            padding: 15px 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
+/* Header */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-        .header .logo {
-            font-size: 22px;
-            font-weight: bold;
-        }
+.header .logo {
+    font-size: 22px;
+    font-weight: bold;
+}
 
-        .header .nav a {
-            color: #fff;
-            margin-left: 15px;
-            text-decoration: none;
-        }
+.header .nav a {
+    color: #fff;
+    margin-left: 15px;
+    text-decoration: none;
+}
 
-        .header .nav a:hover {
-            text-decoration: underline;
-        }
+.header .nav a:hover {
+    text-decoration: underline;
+}
 
-        /* Login Box */
-        .login-container {
-            width: 300px;
-            background: #fff;
-            padding: 20px;
-            margin: 80px auto;
-            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
-            border-radius: 5px;
-        }
+/* Login Box */
+.login-container {
+    width: 300px;
+    background: #fff;
+    padding: 20px;
+    margin: 80px auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
 
-        .login-container h2 {
-            text-align: center;
-            margin-bottom: 20px;
-        }
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
 
-        .login-container input {
-            width: 100%;
-            padding: 8px;
-            margin: 8px 0;
-        }
+.login-container input {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+}
 
-        .login-container button {
-            width: 100%;
-            padding: 10px;
-            background: #333;
-            color: white;
-            border: none;
-            cursor: pointer;
-        }
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
 
-        .login-container button:hover {
-            background: #555;
-        }
+.login-container button:hover {
+    background: #555;
+}
+
+/* Links */
+.forgot {
+    display: block;
+    text-align: right;
+    margin-top: 8px;
+    font-size: 12px;
+    color: #333;
+    text-decoration: none;
+}
+
+.signup-text {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.signup-text .signup-link {
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.signup-text .signup-link:hover {
+    text-decoration: underline;
+}
